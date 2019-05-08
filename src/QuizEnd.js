@@ -7,7 +7,7 @@ class QuizEnd extends Component {
     render(){
         return(<div>
             <p>Thanks for playing!</p>
-            <a href='' onClick="this.handleResetClick.bind(this)">Reset Quiz</a>
+            <a href='' onClick={this.handleResetClick.bind(this)}>Reset Quiz</a>
         </div>)
     }
 }
